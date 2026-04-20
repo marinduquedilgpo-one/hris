@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DILG MORION</title>
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
+
+    <div class="container">
+        <img src="/dilg_logo.png" alt="DILG Logo" class="logo" />
+        
+        <h1>DILG MORION</h1>
+        <h1 class="subtitle">MARINDUQUE ORGANIZATIONAL RECORDS & INFORMATION ONLINE NEXUS</h1>
+
+        <div class="form-container">
+            <form id="loginForm">
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required />
+                </div>
+
+                <div class="form-group password-wrapper">
+                    <input type="password" id="password" name="password" placeholder="Password" required />
+                    <span class="toggle-password" onclick="togglePassword()">👁</span>
+                </div>
+
+                <p id="error" style="color: #ff4d4d; display: none;">Invalid email or password</p>
+
+                <button type="button" onclick="login()">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>© DILG 2026 | DILG MORION</footer>
+    <link rel="stylesheet" href="/css/login.css" />
+    <script src="/js/login.js"></script>
+  </body>
+</html>
